@@ -16,6 +16,10 @@ body {
     
 }
 
+div{
+    display: block;
+}
+
 
 
 
@@ -455,6 +459,7 @@ a.btn_more {
     text-align: center;
     color: #fff;
 }
+
 
 .notice_list li .tit {
     display: block;
