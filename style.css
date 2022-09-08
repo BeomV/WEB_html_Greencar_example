@@ -2,6 +2,7 @@
     body { color: red; }
   }
 
+
   
 html{
     height: 100%;
@@ -428,7 +429,7 @@ a.btn_more {
     
 }
 .notice_list{
-    position: absolute;
+    position: relative;
     width: 1040px;
     height: 440px;
     z-index: 3;
@@ -549,4 +550,11 @@ a.btn_more {
 .footer_parter li{
     padding: 0 12px 0 12px;
     
+}
+
+.section06_inner02{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
 }
