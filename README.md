@@ -8,5 +8,5 @@
 
 ## Schedule
 
-day 1 - Main Page Publishing
-        └ (Parallax Scroll으로 기능 구현할 예정)
+    day 1 - Main Page Publishing
+            └ (Parallax Scroll으로 기능 구현할 예정)
