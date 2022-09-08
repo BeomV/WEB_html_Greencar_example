@@ -2,8 +2,8 @@
 
 ## Goal
     
-9월 - Front 부분 전체 페이지 구현 (사용자 & 관리자 포함)
-10월 - Back 부분 구현 예정 (Spring & SQL)
+    9월 - Front 부분 전체 페이지 구현 (사용자 & 관리자 포함)
+    10월 - Back 부분 구현 예정 (Spring & SQL)
     
 
 ## Schedule
