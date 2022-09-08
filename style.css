@@ -1,0 +1,547 @@
+@media ( max-width: 768px ) {
+    body { color: red; }
+  }
+
+  
+html{
+    height: 100%;
+
+}
+body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Noto Sans KR', sans-serif;
+    
+    
+}
+
+
+
+
+nav{
+
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0ch;
+}
+
+nav li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+nav li a{
+    font-family: 800;
+    color: white;
+    
+}
+
+#header {
+    z-index: 1001;
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+}
+
+.hgroup {
+    position: relative;
+    *display: inline-block;
+    *zoom: 1;
+    z-index: 7000;
+    margin: 0;
+    padding: 0;
+
+}
+
+.hgroup .inbox {
+    position: relative;
+    width: 1080px;
+    height: 80px;
+    margin: 0 auto;
+    z-index: 555;
+}
+
+.hgroup .logo {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    z-index: 556;
+}
+
+.video-background{
+    position: relative;
+    width: 100%;   
+    height: 100%;
+    margin: 0;
+    margin-top: -270px;
+    
+    padding: 0;
+
+
+}
+
+
+.video-background .video-foreground{
+    position: absolute;
+    width: 100%;
+    padding-bottom: 50px;
+    height: 100%;
+    
+}
+
+
+
+.video-background .video-foreground iframe{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 110%;
+   
+}
+
+.section_bg01{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.section_bg01 img{
+    width: 100%;
+    height: 100%;
+    
+}
+.section_bg01 .section_tit{
+    position: absolute;
+    overflow: hidden;
+    font-size: 54px;
+    top: 30%;
+    left: 25%;
+    color: white;
+}
+
+.section_bg01 .section_sub{
+    position: absolute;
+    overflow: hidden;
+    font-size: 22px;
+    top: 55%;
+    left: 25%;
+    color: white;
+}
+
+.bg01_imges{
+    position: absolute;
+    top: 20%;
+    right: 20%;
+}
+
+.bg01_imges > .bg01_img01 {
+    position: relative;
+}
+
+.bg01_imges > .bg01_img02 {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+
+
+.section_bg02{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.setion_bg02 img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.section2_inner{
+    position: absolute;
+    width: 1080px;
+    height: 634px;
+    top: 50%;
+    left: 50%;
+    margin: -317px 0 0 -540px;
+    
+}
+
+.section2_txt{
+    
+    padding-left: 560px;
+}
+
+
+.section2_tit{
+
+    position: relative;
+    margin-top: 134px;
+    margin-bottom: 84px;
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 1.25;
+    color: #fff;
+}
+
+.section2_sub {
+    
+    margin-bottom: 44px;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #fff;
+}
+
+.section2_img{
+    position: absolute;
+    top: 0;
+    background-image: url(/images/bg_phone.png);
+    width: 411px;
+    height: 634px;
+    
+}
+
+.section2_img > .img01{
+    background-image: url(/images/img_section02.gif);
+    position: absolute;
+    width: 283px;
+    height: 486px;
+    top: 10%;
+    left: 16%;
+    display: block;
+    background-position: -568px 0 !important;
+}
+
+#section3{
+    background-image: url(/images/bg_section03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
+
+.section3_bg{
+    height: 969px;
+    position: relative;
+    overflow: hidden;
+}
+
+.section3_inner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1080px;
+    height: 634px;
+    margin: -317px 0 0 -540px;
+
+}
+
+.section3_txt {
+    padding-left: 50px;
+
+}
+
+.section3_tit {
+    position: relative;
+    margin-top: 134px;
+    margin-bottom: 84px;
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 1.25;
+    color: #fff;
+}
+
+.section3_sub {
+    
+    margin-bottom: 44px;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #fff;
+}
+
+.section3_img{
+    background-position: 0 0;
+    position: absolute;
+    top: 18px;
+    right: -0px;
+
+    background-image: url(/images/img_section03.png);
+    background-repeat: no-repeat;
+
+    width: 610px;
+    height: 680px;
+}
+#section04{
+    margin: 0;
+    position: relative;
+
+
+}
+.section4_bg img{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#section05{
+    position: relative;
+}
+ 
+.section05_inner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1080px;
+    height: 570px;
+    margin: -380px 0 0 -540px;
+    padding: 0 50px 0px 60px;
+}
+
+
+h3.tit {
+    padding-top: 4%;
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 42px;
+    letter-spacing: -0.03em;
+    color: #3c3c3c;
+}
+
+.txt_sub {
+    position: relative;
+    width: 980px;
+    margin-bottom: 6%;
+    font-size: 20px;
+    color: #3c3c3c;
+}
+
+a.btn_more {
+    position: absolute;
+    top: 1px;
+    right: 50px;
+    font-size: 16px;
+    color: #3c3c3c;
+}
+
+.event_list {
+    margin-left: -40px;
+}
+
+.event_list li {
+    position: relative;
+    float: left;
+    width: 300px;
+    margin: 0 0 5% 40px;
+}
+
+.event_list li .date {
+    display: block;
+    font-size: 14px;
+    color: #767676;
+}
+
+.event_list li a .tit {
+    display: block;
+    height: 51px;
+    margin-top: 14px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: -0.03em;
+    color: #3c3c3c;
+}
+
+.event_list li .dday {
+    position: absolute;
+    top: -26px;
+    right: 10px;
+    width: 48px;
+    height: 48px;
+    background: #fff;
+    border: 2px solid #7018ff;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 46px;
+    color: #7018ff;
+    text-align: center;
+}
+
+.section06_inner {
+    position: relative;
+    width: 980px;
+    height: 600px;
+    top: -130px;
+    margin: 0 auto;
+    padding: 80px 50px 0;
+}
+
+.section06_inner h3.tit {
+    position: absolute;
+    top: 0;
+    
+}
+
+.section06_inner .txt_sub {
+    position: absolute;
+    width: 980px;
+    margin-top: 70px;
+}
+
+.section06_inner .txt_sub a.btn_more2{
+        position: absolute;
+        top: 1px;
+        right: 0px;
+        font-size: 16px;
+        color: #3c3c3c;
+}
+
+.section06_section{
+    position: relative;
+    margin-top: 150px;
+    width: 1080px;
+    left: -50px;
+    height: 440px;
+    z-index: 2;
+    
+}
+.notice_list{
+    position: absolute;
+    width: 1040px;
+    height: 440px;
+    z-index: 3;
+}
+
+.notice_list li{
+    position: relative;
+    width: 300px;
+    height: 180px;
+    z-index: 4;
+    margin: 0 0 0 10px;
+    padding-bottom: 40px;
+    float: left;
+
+}
+
+.notice_list li .flag {
+    z-index: 5;
+    display: inline-block;
+    width: 50px;
+    height: 26px;
+    background: #0fc80f;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #fff;
+}
+
+.notice_list li .tit {
+    display: block;
+    padding: 12px 0 26px;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -0.3px;
+    line-height: 1.4;
+    color: #3c3c3c;
+}
+
+.notice_list li .date {
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: #767676;
+}
+
+.notice_list li .tit .arr {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 34px;
+    height: 34px;
+    background: url(/images/sp_main.png) no-repeat -165px -174px;
+}
+
+#footer{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 280px;
+    bottom: 0;
+    background-color: #ccc;
+}
+
+.footer_inner{
+    margin: 0 auto;
+    padding: 0;
+    width: 1210px;
+    height: 48px;
+    position: relative;
+}
+
+.footer_box01 {
+    background-color: white;
+    width: 100%;
+    height: 49px;
+    border-top: 1px solid #e2e2e2;
+    
+}
+
+.footer_family{
+    float: left;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer_family li{
+    border-right: 1px solid #e2e2e2;
+}
+
+.footer_inner li {
+    float: left;
+}
+
+.footer_family li a {
+    display: inline-block;
+    width: 115px;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 48px;
+    color: #767676;
+}
+
+.footer_parter{
+    margin: 0;
+    padding: 0;
+    float: right;
+    padding-right: 10px;
+    
+}
+
+.footer_parter li{
+    padding: 0 12px 0 12px;
+    
+}
