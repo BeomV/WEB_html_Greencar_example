@@ -1,0 +1,26 @@
+*{
+    color: #3c3c3c;
+}
+.info_inner{
+    width: 1220px;
+    margin: 0 auto;
+    background-color: rgb(207, 207, 207);
+    text-align: left;
+}
+
+.info_inner h3{
+    font-size: 36px;
+    padding: 30px 10px 100px 10px;
+}
+
+.info_inner .tit {
+    font-size: 26px;
+    padding: 0px 10px;
+}
+
+.info_inner .sub_tit{
+    font-size: 18px;
+    color: #999;
+    padding: 30px 10px 10px 10px
+    
+}

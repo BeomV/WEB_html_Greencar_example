@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <script src="https://kit.fontawesome.com/1652357a48.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/list.js"></script>
@@ -18,7 +19,7 @@
 
 
         <div class="navbar_logo">
-            <img class="grlogo" src="/images/logo.png">
+            <a href="index.html"><img class="grlogo" src="/images/logo.png"></a>
 
 
         </div>
@@ -58,28 +59,28 @@
                     </span>
                     <ul>
                         <li>
-                            <button type="button" id="car_btn">경차</button>
+                            <button type="button" class="car_" id="car_btn">경차</button>
                         </li>
                         <li>
-                            <button type="button" id="car_btn">소형차</button>
+                            <button type="button" class="car_" id="car_btn">소형차</button>
                         </li>
                         <li>
-                            <button type="button" id="car_btn">준중형차</button>
+                            <button type="button" class="car_" id="car_btn">준중형차</button>
                         </li>
                         <li>
-                            <button type="button" id="car_btn">중형차</button>
+                            <button type="button" class="car_" id="car_btn">중형차</button>
                         </li>
                         <li>
-                            <button type="button" id="car_btn">대형차</button>
+                            <button type="button" class="car_" id="car_btn">대형차</button>
                         </li>
                         <li>
-                            <button type="button" id="car_btn">SUV/RV</button>
+                            <button type="button" class="car_" id="car_btn">SUV/RV</button>
                         </li>
                         <li>
-                            <button type="button" id="car_btn">하이브리드</button>
+                            <button type="button" class="car_" id="car_btn">하이브리드</button>
                         </li>
                         <li>
-                            <button type="button" id="car_btn">전기차</button>
+                            <button type="button" class="car_" id="car_btn">전기차</button>
                         </li>
 
                         
@@ -250,5 +251,36 @@
     </div>
     </div>
 </body>
+
+<script>
+     var div2 = document.getElementsByClassName("car_");
+
+function handleClick(event) {
+  console.log(event.target);
+  // console.log(this);
+  // 콘솔창을 보면 둘다 동일한 값이 나온다
+
+  console.log(event.target.classList);
+
+  if (event.target.classList[1] === "clicked") {
+    event.target.classList.remove("clicked");
+  } else {
+    for (var i = 0; i < div2.length; i++) {
+      div2[i].classList.remove("clicked");
+    }
+
+    event.target.classList.add("clicked");
+  }
+}
+
+function init() {
+  for (var i = 0; i < div2.length; i++) {
+    div2[i].addEventListener("click", handleClick);
+  }
+}
+
+init();
+
+</script>
 
 </html>

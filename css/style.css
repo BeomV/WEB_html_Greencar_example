@@ -1001,3 +1001,12 @@ section:focus{
     border: rgb(230, 230, 230) solid 1px;
     border-radius: 3px;
 }
+
+.car_fitler01 .active {
+    border: #00c88c solid 1px;
+}
+
+.clicked {
+    color: #00c88c;
+    
+}
