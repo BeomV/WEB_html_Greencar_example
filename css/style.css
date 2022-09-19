@@ -992,6 +992,12 @@ section:focus{
     width: 100px;
     padding: 5px 0px;
     margin: 3px;
+}
+
+.car_fitler01 ul li button{
+    width: 100%;
+    padding: 7px 0px;
+    background-color: transparent;
+    border: rgb(230, 230, 230) solid 1px;
     border-radius: 3px;
-    border: rgb(230, 230, 230) solid 0.5px;
 }
