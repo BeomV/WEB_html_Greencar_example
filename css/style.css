@@ -740,7 +740,7 @@ section:focus{
 
 .login_section img{
     position: relative;
-    left: -180px;
+    left: -195px;
     top: 15%;
     margin-top: -200px;
 }
@@ -893,6 +893,28 @@ section:focus{
 }
 
 
+.popup01{
+    display: none;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background: black;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 120%;
+    z-index: 1;
+}
+
+.exit_popup a{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+    font-size: 24px;
+    color: white;
+}
+
 
 /* map.html */
 
@@ -907,8 +929,9 @@ section:focus{
 }
 
 .list_inner01 {
+
     width: 300px;
-    height: auto;
+    height: 500px;
     padding: 20px 5px;
     border: rgb(230, 230, 230) solid 0.2px;
     overflow: hidden;
@@ -968,6 +991,7 @@ section:focus{
 
 .list_inner02 ul{
     float: left;
+    text-align: left;
 }
 
 .list_inner02 li{
@@ -1034,7 +1058,6 @@ section:focus{
     margin: 0 auto;
     width: 100%;
     padding: 30px 0px;
-    border-bottom: rgb(230, 230, 230) solid 0.5px;
     text-align: center;
 }
 
@@ -1065,3 +1088,26 @@ section:focus{
     color: #00c88c;
     
 }
+
+.paging-div {
+    padding: 15px 0 5px 10px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.paging-div{
+    padding: 10px 20px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.paging-div a{
+    padding: 3px 10px;
+    font-size: 14px;
+    margin: 0px 5px 20px 0px;
+    color: #00c88c;
+    border: #00c88c solid 1px;
+}
+
