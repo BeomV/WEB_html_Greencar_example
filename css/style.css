@@ -141,7 +141,11 @@ a{
         justify-content: center;
         width: 100%;
         
+
+
     }
+    
+    
     
 }
 .maincontainer{
@@ -683,8 +687,10 @@ section:focus{
 }
 
 .footer_center ul li{
-    margin-right: 9px;
-    font-size: 14px;
+    margin-right: 12px;
+    font-size: 12px;
+   
+    
 }
 
 .footer_center ul li a{
