@@ -1,0 +1,146 @@
+.payment_wrap{
+    width: 1220px;
+    margin: 0 auto;
+}
+.payment_car{
+    margin: 0 auto;
+}
+
+.payment_date{
+    display: flex;
+    justify-content: space-between;
+    width: 1160px;
+    border: #00c88c solid 1px;
+    padding: 15px 30px;
+    border-radius: 10px;
+
+
+}
+
+
+
+.date_text{
+    display: flex;
+}
+
+.date_text i{
+    padding-top: 20px;
+}
+
+.date_text p{
+    margin-top: 10px;
+}
+
+.payment_date span{
+    margin-right: 50px;
+}
+
+.date_button button{
+    width: 70px;
+    height: 50px;
+    font-size: 16px;
+    color: white;
+    background-color: #00c88c;
+    border: none;
+    border-radius: 5px;
+}
+
+.payment_section{
+    width: 1220px;
+    margin: 30px auto;
+    display: flex;
+    text-align: center;
+}
+
+.payment_section .carinfo{
+    width: 800px;
+    height: 1000px;
+    
+}
+
+.carinfo h2{
+    text-align: left;
+    margin: 10px 0px 5px 10px
+}
+
+.carinfo p{
+    text-align: left;
+    margin: 5px 10px;
+}
+
+.carinfo_detail{
+    margin-top: 20px;
+    width: 780px;
+    display: flex;
+    border: #f2f2f2 solid 1px;
+}
+
+.carinfo_detail img{
+    width: 40%;
+}
+
+.carinfo_detail ul {
+    text-align: left;
+    width: 300px;
+    float: left;
+}
+
+.carinfo_detail ul li{
+    padding: 12px;
+    display: inline-block;
+}
+
+.driver_wrap{
+    width: 780px;
+    height: 400px;
+    margin-top: 30px;
+    text-align: left;
+    border: #f2f2f2 solid 1px;
+}
+
+.driver_detail{
+    margin-top: 20px;
+
+}
+
+.driver_detail ul{
+   float: left;
+
+}
+
+.driver_detail li{
+    display: inline-block;
+    margin-right: 30px;
+
+}
+
+.driver_detail input{
+    margin-top: 10px;
+    width: 320px;
+    border-radius: 5px;
+    border: rgb(230,230,230) solid 1px;
+    margin-left: 10px;
+    padding: 12px 5px;
+}
+
+.payment_section .rentinfo{
+    width: 420px;
+    height: 1000px;
+    background-color: rgb(156, 255, 161);
+}
+
+.rent_wrap{
+    margin: 10px 10px;
+    text-align: left;
+}
+
+.rent_wrap span{
+    
+    margin-left: 20px;
+}
+
+.rent_wrap i{
+    font-size: 14px;
+    color: #00c88c;
+    margin-top: 30px;
+}
