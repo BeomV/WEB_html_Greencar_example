@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
+
+@media screen and (max-width: 1440px) {
+    .sidemenu{
+        display: none;
+    }
+
+    
+
+}
+
+
+body{
+    display: flex;
+}
+
+.sidemenu{
+    
+    position: relative;
+    text-align: center;
+    width: 280px;
+    height: 100vh;
+    background-color: rgb(46, 46, 46);
+}
+
+.adminprofile{
+    padding: 50px;
+}
+
+.sidemenu .adminprofile h2{
+    padding-top: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.list ul li{
+    text-align: left;
+    padding-top: 15px;
+    border: 1px solid rgb(56, 56, 56);
+    height: 40px;
+}
+
+.list ul li:hover{
+    background-color: white;
+    color: #3c3c33;
+}
+
+.list ul li:hover a{
+    color: #3c3c33;
+}
+
+
+
+.list ul li a i{
+    
+    margin-right: 20px;
+}
+
+.list ul li a {
+    margin: 45px;
+    color: white;
+}
+
+
+
+.dashboard{
+    width: 100vw;
+    
+}
+
+.topsection{
+    width: 100%;
+    padding: 5px 0px;
+    background-color: rgb(46, 46, 46);
+}
+
+.topsection p{
+    color: white;
+}
+
+.dashboard_main{
+    float: left;
+}
+
+
+.section_01{
+    display: inline-block;
+    text-align: left;
+    margin: 8px 12px;
+    width: 520px;
+    height: 250px;
+    border: 1px solid #ccc;
+    border-left: 4px solid #00c88c;
+    
+}
+
+
+
+.section_01 p{
+    padding: 8px 12px;
+    font-weight: 600;
+    color: #3c3c33;
+}
+
+.section_02{
+    display: inline-block;
+    text-align: center;
+    margin: 8px 12px;
+    width: 1630px;
+    height: 310px;
+    border: 1px solid #ccc;
+    
+    
+}
+
+.count_wrap{
+    text-align: center;
+    padding-top: 60px;
+}
