@@ -64,7 +64,8 @@ body{
 }
 
 .list ul li a {
-    margin: 45px;
+    margin: 25px;
+    font-size: 16px;
     color: white;
 }
 
@@ -95,7 +96,7 @@ body{
     text-align: left;
     margin: 8px 12px;
     width: 520px;
-    height: 250px;
+    height: 200px;
     border: 1px solid #ccc;
     border-left: 4px solid #00c88c;
     
@@ -116,11 +117,226 @@ body{
     width: 1630px;
     height: 310px;
     border: 1px solid #ccc;
+    display: flex;
     
     
 }
+.section_03{
+    display: inline-block;
+    text-align: center;
+    margin: 8px 12px;
+    width: 800px;
+    height: 380px;
+    border: 1px solid #ccc;
+    
+    
+}
+.section_04{
+    display: inline-block;
+    text-align: center;
+    margin: 8px 12px;
+    width: 800px;
+    height: 380px;
+    border: 1px solid #ccc;
+    
+    
+}
+#pieChartCanvas{
+    margin-left: 150px;
+}
+
 
 .count_wrap{
     text-align: center;
     padding-top: 60px;
+}
+
+.legend-div{
+    text-align: left;
+    margin-top: 120px;
+    margin-left: 30px;
+
+}
+
+
+/* list .html 상품 조회 페이지 */
+
+.filter_wrap{
+    padding: 8px 12px;
+    float: left;
+    width: 950px;  
+    height: auto;
+    margin-bottom: 30px;
+
+}
+
+.filter_wrap p{
+    font-size: 16px;
+    color: #3c3c3c;
+    font-weight: 700;
+}
+
+.filter_wrap span{
+    display: inline-block;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+}
+
+#carname{
+    margin-top: 10px;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#carno{
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.filter_wrap button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #00c88c;
+    color: white;
+    margin: 5px;
+    margin-left: 80px;
+    
+}
+
+.filter_wrap button:last-child{
+    background-color: white;
+    color: #3c3c3c;
+    border: 1px solid #ccc;
+}
+
+input[type=checkbox] { 
+    margin-top: 15px;
+    margin-right: 3px;
+}
+
+input[type=text] { 
+    padding-left: 10px;
+}
+
+label{
+    margin-right: 5px;
+}
+
+.filter_wrap select{
+    margin: 5px 5px 5px 0px;
+    width: 120px;
+    height: 40px;
+    border: 1px solid #ccc;
+}
+
+
+/* 테이블 리스트 */
+.item_list{
+    margin-top: 100px;
+}
+
+table{
+    
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 90vw;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+table th{
+    background-color: rgb(255, 251, 244);
+    height: 30px;
+    border: 1px solid #ccc;
+}
+
+table td, table,tr{
+    border: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+
+/** 상품 수정 페이지 **/
+
+.update{
+    
+    padding: 15px 20px;
+}
+
+.update h2{
+    margin-bottom: 30px;
+}
+
+.update p{
+    color: #3c3c33;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.update input{
+    margin-bottom: 20px;
+}
+
+#search_location{
+    width: 180px;
+    height: 40px;
+    margin-left: 15px;
+    border: none;
+    color: white;
+    background-color: #00c88c;
+}
+
+.update input[type=text]{
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.update ul{
+    width: 700px;
+    float: left;
+}
+
+.update ul li{
+
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.update ul li input[type=text]{
+    width: 275px;
+}
+
+#update_btn{
+    margin-top: 10px;
+    width: 610px;
+    height: 40px;
+    border: none;
+    background-color: #00c88c;
+    color: white;
+}
+
+/* 차량 등록 페이지 */
+
+
+#register_btn{
+    margin-top: 10px;
+    width: 610px;
+    height: 40px;
+    border: none;
+    background-color: #00c88c;
+    color: white;
 }

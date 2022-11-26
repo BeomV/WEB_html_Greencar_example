@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/admin.css">
+    <script src="js/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script src="https://kit.fontawesome.com/1652357a48.js" crossorigin="anonymous"></script>
+    <title>관리자페이지</title>
+</head>
+<body>
+    <div class="sidemenu">
+        <div class="adminprofile">
+            <h2>관리자 페이지</h2>
+        </div>
+        <div class="list">
+            <ul>
+                <li>
+                    <a>
+                        <i class="fa-solid fa-house"></i> Home
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <i class="fa-solid fa-chart-line"></i> 통계
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <i class="fa-solid fa-car"></i> 상품관리
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <i class="fa-solid fa-clipboard-list"></i> 서비스관리
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <i class="fa-solid fa-address-book"></i> 회원관리
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <i class="fa-solid fa-credit-card"></i> 정산관리
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <i class="fa-solid fa-desktop"></i> 문의/리뷰관리
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+        
+    </div>
+    <div class="dashboard">
+        <div class="topsection">
+            <p>탑 섹터 부분</p>
+        </div>
+        <div class="dashboard_main">
+            <div class="filter_wrap">
+                <span class="carname">  
+                    <p>차량 명</p>
+                    <input type="text" placeholder="차량 명을 입력하세요." id="carname">
+                    
+                </span>
+                <span>
+                    <p>차량 번호</p>
+                    <input type="text" placeholder="차량 번호를 입력하세요." id="carno">
+                </span>
+                <span>
+                    <button type="button" id="list_search">검색하기</button>
+                    <br>
+                    <button type="button" id="list_reset">초기화</button>
+                </span>
+                
+                <span>
+                    <p>차량 연료</p>
+                    <label><input type="checkbox" value="LPG">LPG</label>
+                    <label><input type="checkbox" value="디젤">디젤</label>
+                    <label><input type="checkbox" value="가솔린">가솔린</label>
+                    <label><input type="checkbox" value="가솔린+전기">가솔린+전기</label>
+                    <label><input type="checkbox" value="전기">전기</label>
+                </span>
+                <span style="margin-left: 70px;">
+                    <p>차량 상태</p>
+                    <label><input type="checkbox" value="이용중">이용중</label>
+                    <label><input type="checkbox" value="반납대기">반납대기</label>
+                    <label><input type="checkbox" value="이용대기">이용대기</label>
+                </span>
+                <span>
+                    <p>차량 타입</p>
+                    <label><input type="checkbox" value="경차">경차</label>
+                    <label><input type="checkbox" value="소형차">소형차</label>
+                    <label><input type="checkbox" value="준중형차">준중형차</label>
+                    <label><input type="checkbox" value="중형차">중형차</label>
+                    <label><input type="checkbox" value="대형차">대형차</label>
+                    <label><input type="checkbox" value="SUV/RV">SUV/RV</label>
+                    <label><input type="checkbox" value="하이브리드">하이브리드</label>
+                    <label><input type="checkbox" value="전기차">전기차</label>
+                </span>
+                <br>
+                <span>
+                    <p>차량 위치</p>
+                    <select>
+                        <option>선택 없음</option>
+                    </select>
+                    <select>
+                        <option>선택 없음</option>
+                    </select>
+                    <select>
+                        <option>선택 없음</option>
+                    </select>
+                </span>
+
+            </div>
+            <div class="item_list">
+                <table>
+                    <th>차량 이름</th>
+                    <th>차량 위치</th>
+                    <th>렌트 요금</th>
+                    <th>차량 번호</th>
+                    <th>차량 타입</th>
+                    <th>연료 타입</th>
+                    <th>연식</th>
+                    <th>연비</th>
+                    <th>총 주행거리</th>
+                    <th>비고</th>
+
+                    <tr><!-- 첫번째 줄 시작 -->
+                        <td>첫번째 칸</td>
+                        <td>두번째 칸</td>
+                        <td>첫번째 칸</td>
+                        <td>두번째 칸</td>
+                        <td>첫번째 칸</td>
+                        <td>두번째 칸</td>
+                        <td>첫번째 칸</td>
+                        <td>두번째 칸</td>
+                        <td>첫번째 칸</td>
+                        <td>두번째 칸</td>
+                    </tr><!-- 첫번째 줄 끝 -->
+                    <tr><!-- 첫번째 줄 시작 -->
+                        <td>첫번째 칸</td>
+                        <td>두번째 칸</td>
+                        <td>첫번째 칸</td>
+                        <td>두번째 칸</td>
+                        <td>첫번째 칸</td>
+                        <td>두번째 칸</td>
+                        <td>첫번째 칸</td>
+                        <td>두번째 칸</td>
+                        <td>첫번째 칸</td>
+                        <td>두번째 칸</td>
+                    </tr><!-- 첫번째 줄 끝 -->
+
+
+                   
+                    </table>
+
+
+            </div>
+            
+        </div>
+    </div>
+</body>
+
+
+</html>

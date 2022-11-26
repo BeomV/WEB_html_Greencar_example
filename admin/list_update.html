@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/admin.css">
+    <script src="js/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script src="https://kit.fontawesome.com/1652357a48.js" crossorigin="anonymous"></script>
+    <title>관리자페이지</title>
+</head>
+<body>
+    <div class="sidemenu">
+        <div class="adminprofile">
+            <h2>관리자 페이지</h2>
+        </div>
+        <div class="list">
+            <ul>
+                <li>
+                    <a>
+                        <i class="fa-solid fa-house"></i> Home
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <i class="fa-solid fa-chart-line"></i> 통계
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <i class="fa-solid fa-car"></i> 상품관리
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <i class="fa-solid fa-clipboard-list"></i> 서비스관리
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <i class="fa-solid fa-address-book"></i> 회원관리
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <i class="fa-solid fa-credit-card"></i> 정산관리
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <i class="fa-solid fa-desktop"></i> 문의/리뷰관리
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+        
+    </div>
+    <div class="dashboard">
+        <div class="topsection">
+            <p>탑 섹터 부분</p>
+        </div>
+        <div class="update">
+            <h2>차량정보 수정</h2>
+            <p>차량 명</p>
+            <input type="text" value="차량 명" style="width: 600px;">
+
+            <p>차량 타입</p>
+            <label><input type="checkbox">경차</label>
+            <label><input type="checkbox">소형차</label>
+            <label><input type="checkbox">준중형차</label>
+            <label><input type="checkbox">중형차</label>
+            <label><input type="checkbox">대형차</label>
+            <label><input type="checkbox">SUV/RV</label>
+            <label><input type="checkbox">하이브리드</label>
+            <label><input type="checkbox">전기차</label>
+
+            <p>차량 연료</p>
+            <label><input type="checkbox">LPG</label>
+            <label><input type="checkbox">디젤</label>
+            <label><input type="checkbox">가솔린</label>
+            <label><input type="checkbox">가솔린+전기</label>
+            <label><input type="checkbox">전기</label>
+            
+            
+            <p>차량 위치</p>
+            <input type="text" value="주소" style="width: 400px;">
+            <button id="search_location">그린존 검색</button>
+            <br>
+            <input type="text" value="상세 주소" style="width: 600px;">
+            <br>
+            
+            <ul>
+                <li>
+                    <p>렌트 요금</p>
+                    <input type="text">
+                </li>
+                <li>
+                    <p>렌트 요금</p>
+                    <input type="text">
+                </li>
+                <li>
+                    <p>렌트 요금</p>
+                    <input type="text">
+                </li>
+                <li>
+                    <p>렌트 요금</p>
+                    <input type="text">
+                </li>
+                <li>
+                    <p>렌트 요금</p>
+                    <input type="text">
+                </li>
+                <li>
+                    <p>렌트 요금</p>
+                    <input type="text">
+                </li>
+                <button type="submit" id="update_btn">정보 수정</button>
+            </ul>
+            <br>
+            
+
+        </div>
+    </div>
+</body>
+
+
+</html>
