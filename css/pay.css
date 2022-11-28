@@ -1,0 +1,198 @@
+.paymain{
+    width: 1220px;
+    margin: 0 auto;
+    text-align: center;
+}
+.paymain h2{
+    margin: 10px 0px 50px 0px ;
+}
+
+.payinner01{
+    width: 1220px;
+    height: 1210px;
+    border: 1px solid rgb(235, 235, 235);
+    text-align: left;
+    
+}
+
+.payinner01 ul{
+    display: flex;
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.payinner01 ul li{
+    display:inline-block;
+	width:60px;
+	text-align: center;
+    width: 100%;
+    
+    
+}
+
+.iclass i{
+    font-size: 24px;
+    color: #3c3c3c;
+    padding-top: 10px;
+    
+}
+
+.payinner01 li button{
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    border: none;
+    background-color: #00c88c;
+    color: white;
+    border-radius: 5px;
+}
+
+.pay_detail{
+    position: relative;
+}
+
+.pay_detail h3,.pay_detail p{
+    padding: 8px 12px;
+}
+.pay_detail h3{
+    font-size: 22px;
+    
+}
+
+.pay_info{
+    margin-top: 30px;
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #f2f2f2;
+    margin-bottom: 10px;
+    text-align: left;
+    display: flex;
+}
+
+.pay_info span{
+    text-align: left;
+    display: inline-block;
+    
+}
+
+.payinfo_text{
+    float: left;
+    width: 350px;
+    height: auto;
+}
+
+.payinfo_text li{
+    display: inline-block;
+    text-align: left;
+    width: 120px;
+    margin: 5px 10px 5px 10px;
+}
+
+.info_txt{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.pay_infospan{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.pay_info02{
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    border: 1px solid #f2f2f2;
+    text-align: left;
+}
+
+
+.text_inner {
+    
+    width: 1150px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.text_inner01{
+    font-size: 18px;
+    font-weight: 600;
+    color: #3c3c3c;
+}
+
+.text_inner02{
+    font-size: 18px;
+    color: #3c3c3c;
+    text-align: right;
+}
+
+.text_inner02{
+    font-size: 18px;
+    color: #3c3c3c;
+}
+
+.pay_info03{
+    margin-top: 30px;
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #f2f2f2;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+input[type="radio"]{
+    margin: 20px;
+}
+
+.payment{
+    width: 320px;
+    height: 150px;
+    margin: 30px auto;
+    border: 1px solid #e2e2e2;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.reg_card{
+    margin-top: 50px;
+    
+}
+
+.reg_card i{
+    font-size: 36px;
+    color: #666;
+}
+
+.reg_card02{
+    font-weight: 600;
+    color: #3c3c3c;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.reg_card02 select{
+    width: 500px;
+    height: 30px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+select:last-child{
+    margin: 10px 20px;
+    width: 250px;
+}
+
+#pay_btn{
+    width: 800px;
+    margin: 30px auto;
+    height: 40px;
+    border: none;
+    background-color: #00c88c;
+    color: white;
+    
+    
+}
